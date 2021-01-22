@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+/*-------------------------
+    初期値
+-------------------------*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 2;
+    font-feature-settings: "palt"1;
+    text-size-adjust: 100%;
+}
+
+a {
+     text-decoration: none;
+ }
+
+ul {
+     list-style: none;
+ }
+
+ /*-------------------------
+     グローバル
+ -------------------------*/
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.gl-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------------------------
+    トップ
+-------------------------*/
+.gl-news {
+    display: flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+}
+
+.new {
+    width: 300px;
+    height: 300px;
+}
